@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+#whole {
+    background-color: #0c0b0b;
+   
+    width: 470px;
+    height: auto;
+    margin-left: 79px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0.2px 2px 15px blue;
+}
+
+#container {
+    /* background-color: green; */
+    border: 4px solid goldenrod;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+header {
+    width: auto;
+    background-color: rgb(15, 16, 16);
+    padding: 1px;
+    height: auto;
+    padding-left: 15px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sec-1{
+    background-color: rgb(211, 69, 69);
+    margin-top: 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+    text-align: center;
+}
+
+#sec-2{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 2px;
+    height: fit-content;
+    margin-bottom: 12px;
+    padding: 0px 8px;
+}
+
+#sec-2 #description span{
+    color: red;
+}
+
+#sec-3 {
+    margin-top: -22px;
+    height: 155px;
+    background-color: whitesmoke;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 4px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+
+#sec-2 img {
+    width: 170px;
+    border: 0 2px solid;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+#sec-1 img {
+    width: 170px;
+    border: 0 2px solid;
+    border-radius: 32px;
+}
+
+button {
+    width: 128px;
+    padding:5px;
+    border: 2px goldenrod solid;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: medium;
+    font-weight: 600;
+}
